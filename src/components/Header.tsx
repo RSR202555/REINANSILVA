@@ -35,23 +35,25 @@ export const Header: React.FC = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-[#080A09]/95 backdrop-blur-xl border-b border-white/10 py-3 shadow-[0_10px_35px_rgba(0,0,0,0.9)]'
-          : 'bg-[#080A09]/70 backdrop-blur-md py-3.5 sm:py-4 border-b border-white/5'
+          ? 'bg-[#080A09]/95 backdrop-blur-xl border-b border-white/10 py-2 sm:py-2.5 shadow-[0_10px_35px_rgba(0,0,0,0.9)]'
+          : 'bg-[#080A09]/75 backdrop-blur-md py-2.5 sm:py-3.5 border-b border-white/5'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
         {/* LOGO */}
-        <a href="#inicio" className="flex items-center gap-3 shrink-0 group focus:outline-none">
-          <img
-            src="/images/logo-reinan.jpg"
-            alt="Reinan Silva Personal Trainer Logo"
-            className="w-11 h-11 sm:w-12 sm:h-12 rounded-full object-cover border border-white/15 shadow-[0_0_15px_rgba(0,0,0,0.8)] group-hover:border-white/30 group-hover:scale-105 transition-all"
-          />
+        <a href="#inicio" className="flex items-center gap-3 sm:gap-4 shrink-0 group focus:outline-none">
+          <div className="relative w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full p-0.5 bg-gradient-to-br from-amber-400/80 via-amber-200/50 to-amber-600/80 shadow-[0_0_22px_rgba(212,175,55,0.4)] group-hover:shadow-[0_0_32px_rgba(212,175,55,0.7)] group-hover:scale-105 transition-all">
+            <img
+              src="/images/logo-reinan-badge.jpg"
+              alt="Reinan Silva Personal Trainer Logo"
+              className="w-full h-full rounded-full object-cover bg-[#080A09]"
+            />
+          </div>
           <div className="flex flex-col shrink-0">
-            <span className="font-headline font-bold text-base sm:text-lg tracking-wider text-white group-hover:text-[#A3F238] transition-colors uppercase whitespace-nowrap">
+            <span className="font-headline font-extrabold text-lg sm:text-xl lg:text-2xl tracking-wider text-white group-hover:text-[#A3F238] transition-colors uppercase whitespace-nowrap">
               Reinan Silva
             </span>
-            <span className="text-[10px] tracking-[0.22em] text-[#A0A69F] uppercase -mt-0.5 font-medium whitespace-nowrap">
+            <span className="text-[10px] sm:text-xs tracking-[0.24em] text-[#A0A69F] uppercase font-semibold whitespace-nowrap">
               Personal Trainer
             </span>
           </div>

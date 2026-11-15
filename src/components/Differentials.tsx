@@ -77,9 +77,9 @@ export const Differentials: React.FC = () => {
               {/* EDITORIAL CARD PHOTO */}
               <div className="relative rounded-3xl overflow-hidden bg-gradient-to-t from-[#080A09] via-[#191F1B] to-[#111512] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.8)]">
                 <img
-                  src="/images/foto-final.jpeg"
-                  alt="Reinan Silva Atendimento Individualizado"
-                  className="w-full h-auto object-cover object-top filter drop-shadow-xl"
+                  src="/images/com-aluno.jpeg"
+                  alt="Reinan Silva Orientando Aluno em Treino Personalizado"
+                  className="w-full h-auto object-cover object-center filter drop-shadow-xl"
                   loading="lazy"
                 />
               </div>

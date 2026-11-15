@@ -86,14 +86,14 @@ export const TRANSFORMATIONS: TransformationItem[] = [
   },
   {
     id: 'aluna-3',
-    name: 'Aluno com Consultoria',
+    name: 'Aluna Consultoria',
     location: 'Salvador — BA',
     category: 'saude',
     categoryLabel: 'Condicionamento & Glúteos',
     highlightBadge: 'Abdômen Trincado & Pernas Fortes',
     duration: 'Acompanhamento Contínuo',
     image: '/images/antes-depois/aluno3-completo.jpg',
-    alt: 'Antes e Depois - Aluno com consultoria com abdômen trincado e quadríceps desenvolvidos',
+    alt: 'Antes e Depois - Aluna com abdômen trincado e quadríceps desenvolvidos',
     metrics: [
       { label: 'Abdômen', value: 'Trincado' },
       { label: 'Quadríceps', value: 'Volume Notável' },
