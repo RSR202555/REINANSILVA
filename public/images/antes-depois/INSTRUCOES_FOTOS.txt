@@ -1,0 +1,40 @@
+====================================================================
+COMO ADICIONAR SUAS PRÓPRIAS FOTOS DE ANTES E DEPOIS
+====================================================================
+
+1. ONDE COLOCAR AS FOTOS:
+   Coloque as imagens nesta mesma pasta:
+   G:\Meu Drive\REINAN SILVA\public\images\antes-depois\
+
+   Sugestão de nomes de arquivos:
+   - aluno1-antes.jpg
+   - aluno1-depois.jpg
+   - aluno2-antes.jpg
+   - aluno2-depois.jpg
+   ...e assim por diante.
+
+2. FORMATO E RESOLUÇÃO RECOMENDADOS:
+   - Formatos: .jpg, .jpeg, .png ou .webp
+   - Proporção recomendada: Retrato (3:4 ou 4:5) ou quadrada.
+   - Dica: Prefira fotos com boa iluminação e no mesmo ângulo para o comparativo ficar profissional.
+
+3. COMO VINCULAR NO CÓDIGO:
+   Abra o arquivo:
+   src/components/BeforeAfter.tsx
+
+   Localize a constante:
+   export const TRANSFORMATIONS = [ ... ]
+
+   E altere os campos "beforeImage" e "afterImage", por exemplo:
+   beforeImage: "/images/antes-depois/aluno1-antes.jpg",
+   afterImage: "/images/antes-depois/aluno1-depois.jpg",
+
+4. COMO EDITAR OS FEEDBACKS EM TEXTO:
+   Abra o arquivo:
+   src/components/Testimonials.tsx
+
+   Localize a constante:
+   export const FEEDBACKS = [ ... ]
+
+   E personalize os nomes, textos, cargos e resultados conforme seus alunos reais!
+====================================================================
