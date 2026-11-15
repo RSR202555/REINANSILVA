@@ -24,19 +24,17 @@ export const Footer: React.FC = () => {
           
           {/* BRAND COL (2 COLS) */}
           <div className="lg:col-span-2 flex flex-col items-start">
-            <a href="#inicio" className="flex items-center gap-4 group mb-4">
-              <div className="relative w-18 h-18 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full p-0.5 bg-gradient-to-br from-amber-400/80 via-amber-200/50 to-amber-600/80 shadow-[0_0_25px_rgba(212,175,55,0.4)]">
-                <img
-                  src="/images/logo-reinan-badge.jpg?v=3"
-                  alt="Reinan Silva Personal Trainer Logo"
-                  className="w-full h-full rounded-full object-cover bg-[#080A09]"
-                />
-              </div>
+            <a href="#inicio" className="flex items-center gap-3 group mb-4">
+              <img
+                src="/images/logo-reinan.jpg"
+                alt="Reinan Silva Personal Trainer Logo"
+                className="w-12 h-12 rounded-full object-cover border border-white/15 shadow-[0_0_15px_rgba(0,0,0,0.8)]"
+              />
               <div className="flex flex-col">
-                <span className="font-headline font-extrabold text-xl sm:text-2xl tracking-wider text-white uppercase whitespace-nowrap">
+                <span className="font-headline font-bold text-lg tracking-wider text-white uppercase whitespace-nowrap">
                   Reinan Silva
                 </span>
-                <span className="text-xs sm:text-sm tracking-[0.24em] text-[#A0A69F] uppercase font-semibold whitespace-nowrap">
+                <span className="text-[10px] tracking-[0.22em] text-[#A0A69F] uppercase -mt-0.5 font-medium whitespace-nowrap">
                   Personal Trainer
                 </span>
               </div>
