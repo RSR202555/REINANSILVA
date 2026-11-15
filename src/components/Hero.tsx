@@ -172,13 +172,7 @@ export const Hero: React.FC = () => {
               </div>
             </div>
 
-            {/* FLOATING BADGE 2: SLOGAN OFICIAL */}
-            <div className="absolute top-12 right-0 sm:-right-4 z-20 hidden sm:flex flex-col p-3.5 rounded-2xl bg-[#191F1B]/95 border border-white/10 backdrop-blur-xl shadow-xl max-w-[210px]">
-              <span className="text-[10px] uppercase font-bold text-[#A3F238] tracking-wider mb-0.5">Propósito</span>
-              <p className="text-xs text-gray-200 font-medium italic">
-                “Treinar é descobrir a sua melhor versão.”
-              </p>
-            </div>
+
           </div>
 
         </div>
