@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
             <a href="#inicio" className="flex items-center gap-4 group mb-4">
               <div className="relative w-18 h-18 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full p-0.5 bg-gradient-to-br from-amber-400/80 via-amber-200/50 to-amber-600/80 shadow-[0_0_25px_rgba(212,175,55,0.4)]">
                 <img
-                  src="/images/logo-reinan-badge.jpg"
+                  src="/images/logo-reinan-badge.jpg?v=3"
                   alt="Reinan Silva Personal Trainer Logo"
                   className="w-full h-full rounded-full object-cover bg-[#080A09]"
                 />

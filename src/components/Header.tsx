@@ -44,7 +44,7 @@ export const Header: React.FC = () => {
         <a href="#inicio" className="flex items-center gap-3 sm:gap-4 shrink-0 group focus:outline-none">
           <div className="relative w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full p-0.5 bg-gradient-to-br from-amber-400/80 via-amber-200/50 to-amber-600/80 shadow-[0_0_22px_rgba(212,175,55,0.4)] group-hover:shadow-[0_0_32px_rgba(212,175,55,0.7)] group-hover:scale-105 transition-all">
             <img
-              src="/images/logo-reinan-badge.jpg"
+              src="/images/logo-reinan-badge.jpg?v=3"
               alt="Reinan Silva Personal Trainer Logo"
               className="w-full h-full rounded-full object-cover bg-[#080A09]"
             />
