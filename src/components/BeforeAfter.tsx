@@ -92,7 +92,7 @@ export const TRANSFORMATIONS: TransformationItem[] = [
     categoryLabel: 'Condicionamento & Glúteos',
     highlightBadge: 'Abdômen Trincado & Pernas Fortes',
     duration: 'Acompanhamento Contínuo',
-    image: '/images/antes-depois/aluno3-completo.jpg',
+    image: '/images/antes-depois/aluna3-sem-insta.jpg',
     alt: 'Antes e Depois - Aluna com abdômen trincado e quadríceps desenvolvidos',
     metrics: [
       { label: 'Abdômen', value: 'Trincado' },
